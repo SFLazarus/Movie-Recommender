@@ -11,12 +11,12 @@ Built Clustering model to design a movie recommender based on rating and tags by
 6. Document your process and results
 7. Commit your notebook, source code, visualizations and other supporting files to the git repository in GitHub
 
-
+---
 ## Data Description
 This dataset (ml-latest-small) describes 5-star rating and free-text tagging activity from http://movielens.org, a movie recommendation service. It contains 100836 ratings and 3683 tag applications across 9742 movies. These data were created by 610 users between March 29, 1996 and September 24, 2018. Users were selected at random for inclusion. All selected users had rated at least 20 movies.Each user is represented by an id and had rated at least 20 movies.
 The data are contained in the files `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`.
 
-
+---
 ## What we want to do?
 - use few Clustering models to recommend movies based on ratings and tags by other users.
 
@@ -35,7 +35,7 @@ The data are contained in the files `links.csv`, `movies.csv`, `ratings.csv` and
 ![](https://github.com/SFLazarus/Movie-Recommender/blob/master/reports/AgglomerativClusters_plot.png)
 
 - We then built two recommenders each based on above mentioned clustering models.
-
+---
 ## Results
 ### When tried to find 5 recommendations for Titanic (1997)
 #### KMeans based Recommender suggested:
@@ -50,3 +50,19 @@ The data are contained in the files `links.csv`, `movies.csv`, `ratings.csv` and
 - Pearl Harbor (2001)
 - Bodyguard, The (1992)
 - About Time (2013)
+
+---
+
+# Project Structure:
+### Readme.md
+- Project description
+### Data
+- Contains raw data files in csv format
+### Notebooks
+- Jupyter Notebook for Exploratory data analysis, Visualization, Feature Engineering and Clustering.
+### Reports
+- plot- popularity of genres
+- Plot- Kmeans Clusters
+- Plot- Agglomerative Clusters
+### Requirements.txt
+- Info about Tools, frameworks and libraries required to reproduce the work flow
